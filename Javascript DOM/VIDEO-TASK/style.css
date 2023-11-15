@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+} 
+
+#video{
+    width:1162px;
+    height:654px ;
+    position: relative;
+  
+}
+
+#container{
+ background: rgba(0, 0, 0, 0.2);
+ color: #f1f1f1;
+ position: absolute;
+ top: 0%;
+ width: 1162px;
+ height: 654px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ z-index: 1;
+}
+
+
+#main-btn{
+    width: 120px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;   
+    background-color:white;  
+    color:skyblue;
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    z-index: 2;
+    border-radius: 8px 8px 8px 8px;
+
+}
+#main-btn>*{
+    width: 50%;
+    cursor: pointer;
+    padding: 5px;
+  
+}
+
+.start{
+    background-color:skyblue;
+    border-radius: 5px 13px 13px 5px;
+}
+
+.pause{
+    background-color: skyblue;
+    border-radius: 13px 5px 5px 13px ;
+    
+}

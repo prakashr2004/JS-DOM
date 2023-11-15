@@ -1,0 +1,64 @@
+
+.main-condiner{
+    background-image: url(popup.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+  position: fixed;
+ 
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.hide{
+    width: 300px;
+    height: 150px;
+    background-color:white;
+    text-align: center;
+   color:blue ;
+   display: none;
+}
+
+.nohide{
+    width: 300px;
+    height: 150px;
+    background-color:white;
+    color: blue;   
+   text-align: center;
+    display: none;
+}
+#btn1{
+    background-color:darkturquoise;
+    border: none;
+    width: 100px;
+    height:20px;
+    border-radius: 5px;
+    color: white;
+   
+}
+
+#btn2{
+float:right;
+border: none;
+color: red;
+padding-right: 10px;
+font-size: x-large;
+cursor: pointer;
+
+}
+
+.visible{
+    display:block;
+   
+}
+
+.visiblehi{
+
+background-color: rgba(142,195,233,0.5);
+
+}

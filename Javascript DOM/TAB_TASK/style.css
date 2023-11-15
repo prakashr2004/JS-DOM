@@ -1,0 +1,17 @@
+.main-container{
+
+}
+.title-contant{
+       display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+p{
+    width: 400px;
+}
+.title{
+
+}

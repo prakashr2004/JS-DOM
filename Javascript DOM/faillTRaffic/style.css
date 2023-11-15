@@ -1,0 +1,36 @@
+.traffic-light{
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.traffic-light div {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+p{
+    width: 200px;
+    height: 50px;
+    background-color:skyblue;
+}
+
+.red1 {
+background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.grey{
+    background-color: gray;
+}
